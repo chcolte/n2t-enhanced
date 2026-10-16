@@ -1,0 +1,17 @@
+# Quartus ワーキングディレクトリ（中間ファイル）
+db/
+incremental_db/
+simulation/
+greybox_tmp/
+
+# 出力されたバイナリファイル群（FPGA書き込みデータなど）
+output_files/
+
+# レポート・ログファイル群
+*.rpt
+*.smsg
+*.summary
+*.jdi
+*.pin
+*.done
+*.qws
