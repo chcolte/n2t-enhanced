@@ -4,6 +4,7 @@ incremental_db/
 simulation/
 greybox_tmp/
 work/
+stash/
 
 # 出力されたバイナリファイル群（FPGA書き込みデータなど）
 output_files/

@@ -24,7 +24,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 152 48 168)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x0" (rect 5 0 19 11)(font "Arial" ))
+	(text "x[0]" (rect 5 0 28 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 216 48 232)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x1" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[1]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -56,7 +56,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 280 48 296)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x2" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[2]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -72,7 +72,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 344 48 360)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x3" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[3]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -88,7 +88,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 432 48 448)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x4" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[4]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -104,7 +104,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 496 48 512)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x5" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[5]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -120,7 +120,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 560 48 576)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x6" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[6]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -136,7 +136,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 624 48 640)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x7" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[7]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -152,7 +152,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 712 48 728)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x8" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[8]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -168,7 +168,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 776 48 792)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x9" (rect 5 0 17 11)(font "DejaVu Sans Condensed" ))
+	(text "x[9]" (rect 5 0 26 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -184,7 +184,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 840 48 856)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x10" (rect 5 0 24 11)(font "DejaVu Sans Condensed" ))
+	(text "x[10]" (rect 5 0 31 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -200,7 +200,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 904 48 920)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x11" (rect 5 0 24 11)(font "DejaVu Sans Condensed" ))
+	(text "x[11]" (rect 5 0 31 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -216,7 +216,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 992 48 1008)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x12" (rect 5 0 24 11)(font "DejaVu Sans Condensed" ))
+	(text "x[12]" (rect 5 0 31 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -232,7 +232,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 1056 48 1072)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x13" (rect 5 0 24 11)(font "DejaVu Sans Condensed" ))
+	(text "x[13]" (rect 5 0 31 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -248,7 +248,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 1120 48 1136)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x14" (rect 5 0 24 11)(font "DejaVu Sans Condensed" ))
+	(text "x[14]" (rect 5 0 31 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -264,7 +264,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect -120 1184 48 1200)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "x15" (rect 5 0 24 11)(font "DejaVu Sans Condensed" ))
+	(text "x[15]" (rect 5 0 31 11)(font "DejaVu Sans Condensed" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -312,7 +312,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 168 648 184)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox0" (rect 90 0 110 11)(font "Arial" ))
+	(text "out[0]" (rect 90 0 123 11)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -328,7 +328,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 232 648 248)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox1" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[1]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -344,23 +344,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 296 648 312)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox2" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-)
-(pin
-	(output)
-	(rect 472 360 648 376)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox3" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[2]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -376,7 +360,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 448 648 464)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox4" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[4]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -392,7 +376,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 512 648 528)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox5" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[5]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -408,7 +392,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 576 648 592)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox6" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[6]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -424,7 +408,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 640 648 656)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox7" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[7]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -440,7 +424,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 728 648 744)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox8" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[8]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -456,7 +440,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 792 648 808)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox9" (rect 90 0 107 11)(font "DejaVu Sans Condensed" ))
+	(text "out[9]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -472,7 +456,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 856 648 872)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox10" (rect 90 0 113 11)(font "DejaVu Sans Condensed" ))
+	(text "out[10]" (rect 90 0 125 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -488,7 +472,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 920 648 936)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox11" (rect 90 0 113 11)(font "DejaVu Sans Condensed" ))
+	(text "out[11]" (rect 90 0 125 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -504,7 +488,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 1008 648 1024)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox12" (rect 90 0 113 11)(font "DejaVu Sans Condensed" ))
+	(text "out[12]" (rect 90 0 125 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -520,7 +504,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 1072 648 1088)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox13" (rect 90 0 113 11)(font "DejaVu Sans Condensed" ))
+	(text "out[13]" (rect 90 0 125 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -536,7 +520,7 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 1136 648 1152)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox14" (rect 90 0 113 11)(font "DejaVu Sans Condensed" ))
+	(text "out[14]" (rect 90 0 125 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -552,7 +536,23 @@ on the Quartus Prime software download page.
 	(output)
 	(rect 472 1200 648 1216)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "ox15" (rect 90 0 113 11)(font "DejaVu Sans Condensed" ))
+	(text "out[15]" (rect 90 0 125 11)(font "DejaVu Sans Condensed" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 472 360 648 376)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "out[3]" (rect 90 0 119 11)(font "DejaVu Sans Condensed" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -2083,3 +2083,5 @@ on the Quartus Prime software download page.
 (junction (pt 376 1088))
 (junction (pt 376 1152))
 (junction (pt 376 192))
+(text "nx: bit inversion" (rect 224 32 318 45)(font "DejaVu Sans Condensed" (font_size 8)))
+(text "zx: replace x = 0x0" (rect -104 32 10 45)(font "DejaVu Sans Condensed" (font_size 8)))
