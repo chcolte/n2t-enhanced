@@ -15,7 +15,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition"
-// CREATED		"Sat Oct 17 16:57:18 2026"
+// CREATED		"Sun Oct 18 15:15:23 2026"
 
 module alu_bitmanipulate(
 	zx,
@@ -30,6 +30,7 @@ input wire	nx;
 input wire	[15:0] x;
 output wire	[15:0] out;
 
+wire	[15:0] out_ALTERA_SYNTHESIZED;
 wire	SYNTHESIZED_WIRE_32;
 wire	SYNTHESIZED_WIRE_8;
 wire	SYNTHESIZED_WIRE_9;
@@ -69,41 +70,41 @@ assign	SYNTHESIZED_WIRE_25 = x[15] & SYNTHESIZED_WIRE_32;
 
 assign	SYNTHESIZED_WIRE_32 =  ~zx;
 
-assign	out[4] = SYNTHESIZED_WIRE_8 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[4] = SYNTHESIZED_WIRE_8 ^ nx;
 
-assign	out[0] = SYNTHESIZED_WIRE_9 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[0] = SYNTHESIZED_WIRE_9 ^ nx;
 
-assign	out[1] = SYNTHESIZED_WIRE_10 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[1] = SYNTHESIZED_WIRE_10 ^ nx;
 
-assign	out[2] = SYNTHESIZED_WIRE_11 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[2] = SYNTHESIZED_WIRE_11 ^ nx;
 
 assign	SYNTHESIZED_WIRE_11 = x[2] & SYNTHESIZED_WIRE_32;
 
-assign	out[3] = SYNTHESIZED_WIRE_13 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[3] = SYNTHESIZED_WIRE_13 ^ nx;
 
-assign	out[5] = SYNTHESIZED_WIRE_14 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[5] = SYNTHESIZED_WIRE_14 ^ nx;
 
-assign	out[6] = SYNTHESIZED_WIRE_15 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[6] = SYNTHESIZED_WIRE_15 ^ nx;
 
-assign	out[7] = SYNTHESIZED_WIRE_16 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[7] = SYNTHESIZED_WIRE_16 ^ nx;
 
-assign	out[8] = SYNTHESIZED_WIRE_17 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[8] = SYNTHESIZED_WIRE_17 ^ nx;
 
-assign	out[9] = SYNTHESIZED_WIRE_18 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[9] = SYNTHESIZED_WIRE_18 ^ nx;
 
-assign	out[10] = SYNTHESIZED_WIRE_19 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[10] = SYNTHESIZED_WIRE_19 ^ nx;
 
-assign	out[11] = SYNTHESIZED_WIRE_20 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[11] = SYNTHESIZED_WIRE_20 ^ nx;
 
-assign	out[12] = SYNTHESIZED_WIRE_21 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[12] = SYNTHESIZED_WIRE_21 ^ nx;
 
-assign	out[13] = SYNTHESIZED_WIRE_22 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[13] = SYNTHESIZED_WIRE_22 ^ nx;
 
 assign	SYNTHESIZED_WIRE_13 = x[3] & SYNTHESIZED_WIRE_32;
 
-assign	out[14] = SYNTHESIZED_WIRE_24 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[14] = SYNTHESIZED_WIRE_24 ^ nx;
 
-assign	out[15] = SYNTHESIZED_WIRE_25 ^ nx;
+assign	out_ALTERA_SYNTHESIZED[15] = SYNTHESIZED_WIRE_25 ^ nx;
 
 assign	SYNTHESIZED_WIRE_17 = x[8] & SYNTHESIZED_WIRE_32;
 
@@ -117,5 +118,6 @@ assign	SYNTHESIZED_WIRE_8 = x[4] & SYNTHESIZED_WIRE_32;
 
 assign	SYNTHESIZED_WIRE_14 = x[5] & SYNTHESIZED_WIRE_32;
 
+assign	out = out_ALTERA_SYNTHESIZED;
 
 endmodule

@@ -108,4 +108,23 @@ set_global_assignment -name BDF_FILE adderw16.bdf
 set_global_assignment -name VERILOG_FILE adderw16_tb.v
 set_global_assignment -name BDF_FILE andw16.bdf
 set_global_assignment -name VERILOG_FILE andw16_tb.v
+set_global_assignment -name BDF_FILE half_adder.bdf
+set_global_assignment -name BDF_FILE full_adder.bdf
+set_global_assignment -name VERILOG_FILE full_adder_tb.v
+set_global_assignment -name BDF_FILE fadderw4.bdf
+set_global_assignment -name VERILOG_FILE fadderw4_tb.v
+set_global_assignment -name TEXT_FILE fadderw4_tb_vect.txt
+set_global_assignment -name BDF_FILE fadderw16.bdf
+set_global_assignment -name TEXT_FILE fadderw16_tb_vect.txt
+set_global_assignment -name VERILOG_FILE fadderw16_tb.v
+set_global_assignment -name BDF_FILE selecter.bdf
+set_global_assignment -name VERILOG_FILE selecter_tb.v
+set_global_assignment -name BDF_FILE selecterw4.bdf
+set_global_assignment -name VERILOG_FILE selecterw4_tb.v
+set_global_assignment -name BDF_FILE selecterw16.bdf
+set_global_assignment -name TEXT_FILE selecterw16_tb_vect.txt
+set_global_assignment -name VERILOG_FILE selecterw16_tb.v
+set_global_assignment -name BDF_FILE bitinversionw16.bdf
+set_global_assignment -name VERILOG_FILE bitinversionw16_tb.v
+set_global_assignment -name BDF_FILE orc16w1.bdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

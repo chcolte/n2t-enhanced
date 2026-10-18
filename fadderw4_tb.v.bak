@@ -1,0 +1,55 @@
+`timescale 1ns/1ns
+
+module fadderw4_tb;
+    // 入出力の定義
+    reg [3:0] x;
+    reg [3:0] y;
+	 reg [3:0] cin;
+    wire [3:0] sum;
+	 wire [3:0] cout;
+
+    // テスト対象の自作加算器を呼び出す
+    // （※事前に module my_adder (input [3:0] a, b, output [4:0] sum) を作っている前提）
+    fadderw4 uut (
+        .x(x),
+        .y(y),
+		  .cin(cin),
+		  .cout(cout),
+        .sum(sum)
+    );
+
+    // テスト用のループ変数とエラーカウンター
+    integer i, j;
+    integer error_count;
+
+    initial begin
+        error_count = 0; // エラー数をゼロで初期化
+
+        // aを0〜15まで変化させる
+        for (i = 0; i < 16; i = i + 1) begin
+            // bを0〜15まで変化させる
+            for (j = 0; j < 16; j = j + 1) begin
+                
+                a = i[3:0]; // 入力ピンに値をセット
+                b = j[3:0];
+                #10;        // 回路の計算が終わるまで少し待つ（必須）
+
+                // 【自動判定】実際の出力(sum)が、期待値(i+j)と一致しない場合
+                if (sum !== (i + j)) begin
+                    $display("❌ エラー発生! a=%d, b=%d のとき sum=%d (期待値は %d)", a, b, sum, (i + j));
+                    error_count = error_count + 1;
+                end
+            end
+        end
+
+        // 最終結果の表示
+        $display("----------------------------------------");
+        if (error_count == 0)
+            $display("✅ 全256パターンのテストをパスしました！完璧です。");
+        else
+            $display("⚠️ 合計 %d 個のエラーが見つかりました。", error_count);
+        $display("----------------------------------------");
+
+        $stop; // シミュレーション終了
+    end
+endmodule

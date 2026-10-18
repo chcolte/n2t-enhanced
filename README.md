@@ -8,7 +8,7 @@ Nand2TetrisのCPUをベースとして、一部改良を加えたCPU回路
 ### 回路作成
 1. File > New Block Diagram
 2. Processing > Start > Start Analysis & Sysnthesis (ctrl+k) //回路解析
-3. File > Create/Update > Create HDL Design File from Current File > Verilog HDL //Verilog HDLファイルに変換
+3. File > Create/Update > Create HDL Design File from Current File > Verilog HDL //Verilog HDLファイルを生成
 
 ### テストベンチ作成
 1. File > New > Verilog HDL File
@@ -18,9 +18,9 @@ Nand2TetrisのCPUをベースとして、一部改良を加えたCPU回路
 2. File > Change Directoryでプロジェクトフォルダに移動
 3. Compile > Compile で回路、テストベンチのVerilog(.v)をコンパイル
 4. 下部Transcriptウィンドウで、  vsim -voptargs=+acc work.mux2x1_tb
-    4.1 View > Transcriptで開ける
+ - 4.1 View > Transcriptで開ける
 5. add wave /*
-6. run 100ns 
+6. run 100ns または run -all
 
 ### 回路のシンボル化
 1. Quartus起動

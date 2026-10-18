@@ -1,0 +1,26 @@
+`timescale 1ns / 1ns
+
+module selecter_tb;
+
+	reg x;
+	reg y;
+	reg select;
+	wire out;
+	
+	
+selecter insta (
+		.x(x),
+		.y(y),
+		.select(select),
+		.out(out)
+);
+	
+	initial begin
+		x = 0;
+		y = 0;
+		cin = 0;
+	end
+	always #1 x = x+1;
+	always #2 y = y+1;
+	always #4 cin = cin+1;
+endmodule
