@@ -120,7 +120,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 232 496 400 512)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "f" (rect 5 0 11 11)(font "Arial" ))
+	(text "f" (rect 5 0 10 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -136,7 +136,7 @@ on the Quartus Prime software download page.
 	(input)
 	(rect 1112 192 1280 208)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "no" (rect 5 0 20 11)(font "Arial" ))
+	(text "no" (rect 5 0 19 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -150,7 +150,7 @@ on the Quartus Prime software download page.
 )
 (pin
 	(output)
-	(rect 1536 272 1712 288)
+	(rect 1544 272 1720 288)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "out[15..0]" (rect 90 0 143 11)(font "Arial" ))
 	(pt 0 8)
@@ -166,7 +166,7 @@ on the Quartus Prime software download page.
 )
 (pin
 	(output)
-	(rect 1648 400 1824 416)
+	(rect 1712 400 1888 416)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "zr" (rect 90 0 100 11)(font "Arial" ))
 	(pt 0 8)
@@ -566,6 +566,31 @@ on the Quartus Prime software download page.
 		(line (pt 8 8)(pt 24 8))
 	)
 )
+(symbol
+	(rect 1656 392 1704 424)
+	(text "NOT" (rect 1 0 22 10)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 21 26 32)(font "DejaVu Sans Condensed" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 16 18)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 53 18)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
 	(pt 392 272)
 	(pt 456 272)
@@ -712,16 +737,6 @@ on the Quartus Prime software download page.
 	(text "<<__$DEF_ALIAS7113>>" (rect 1512 192 1635 203)(font "DejaVu Sans Condensed" )(invisible))
 	(pt 1512 208)
 	(pt 1536 208)
-)
-(connector
-	(pt 1472 280)
-	(pt 1512 280)
-	(bus)
-)
-(connector
-	(pt 1512 280)
-	(pt 1536 280)
-	(bus)
 )
 (connector
 	(text "out[15..0]" (rect 1496 357 1507 405)(font "DejaVu Sans Condensed" )(vertical))
@@ -883,6 +898,24 @@ on the Quartus Prime software download page.
 	(text "out[15]" (rect 1528 632 1563 643)(font "DejaVu Sans Condensed" ))
 	(pt 1512 648)
 	(pt 1552 648)
+)
+(connector
+	(pt 1472 280)
+	(pt 1512 280)
+	(bus)
+)
+(connector
+	(pt 1512 280)
+	(pt 1544 280)
+	(bus)
+)
+(connector
+	(pt 1712 408)
+	(pt 1704 408)
+)
+(connector
+	(pt 1648 408)
+	(pt 1656 408)
 )
 (junction (pt 744 240))
 (junction (pt 712 400))

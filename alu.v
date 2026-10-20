@@ -15,7 +15,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition"
-// CREATED		"Sun Oct 18 17:12:33 2026"
+// CREATED		"Tue Oct 20 21:39:47 2026"
 
 module alu(
 	ny,
@@ -46,13 +46,14 @@ output wire	[15:0] out;
 
 wire	[15:0] out_ALTERA_SYNTHESIZED;
 wire	SYNTHESIZED_WIRE_0;
-wire	[15:0] SYNTHESIZED_WIRE_8;
+wire	SYNTHESIZED_WIRE_1;
 wire	[15:0] SYNTHESIZED_WIRE_9;
-wire	[15:0] SYNTHESIZED_WIRE_5;
+wire	[15:0] SYNTHESIZED_WIRE_10;
 wire	[15:0] SYNTHESIZED_WIRE_6;
 wire	[15:0] SYNTHESIZED_WIRE_7;
+wire	[15:0] SYNTHESIZED_WIRE_8;
 
-assign	SYNTHESIZED_WIRE_0 = 0;
+assign	SYNTHESIZED_WIRE_1 = 0;
 
 
 
@@ -61,40 +62,42 @@ alu_bitmanipulate	b2v_inst(
 	.zx(zx),
 	.nx(nx),
 	.x(x),
-	.out(SYNTHESIZED_WIRE_8));
+	.out(SYNTHESIZED_WIRE_9));
+
+assign	zr =  ~SYNTHESIZED_WIRE_0;
 
 
 fadderw16	b2v_inst2(
-	.cin(SYNTHESIZED_WIRE_0),
-	.x(SYNTHESIZED_WIRE_8),
-	.y(SYNTHESIZED_WIRE_9),
+	.cin(SYNTHESIZED_WIRE_1),
+	.x(SYNTHESIZED_WIRE_9),
+	.y(SYNTHESIZED_WIRE_10),
 	
-	.sum(SYNTHESIZED_WIRE_6));
+	.sum(SYNTHESIZED_WIRE_7));
 
 
 andw16	b2v_inst3(
-	.x(SYNTHESIZED_WIRE_8),
-	.y(SYNTHESIZED_WIRE_9),
-	.out(SYNTHESIZED_WIRE_5));
+	.x(SYNTHESIZED_WIRE_9),
+	.y(SYNTHESIZED_WIRE_10),
+	.out(SYNTHESIZED_WIRE_6));
 
 
 alu_bitmanipulate	b2v_inst4(
 	.zx(zy),
 	.nx(ny),
 	.x(y),
-	.out(SYNTHESIZED_WIRE_9));
+	.out(SYNTHESIZED_WIRE_10));
 
 
 selecterw16	b2v_inst5(
 	.select(f),
-	.x(SYNTHESIZED_WIRE_5),
-	.y(SYNTHESIZED_WIRE_6),
-	.out(SYNTHESIZED_WIRE_7));
+	.x(SYNTHESIZED_WIRE_6),
+	.y(SYNTHESIZED_WIRE_7),
+	.out(SYNTHESIZED_WIRE_8));
 
 
 bitinversionw16	b2v_inst6(
 	.nx(no),
-	.x(SYNTHESIZED_WIRE_7),
+	.x(SYNTHESIZED_WIRE_8),
 	.out(out_ALTERA_SYNTHESIZED));
 
 
@@ -115,7 +118,7 @@ orc16w1	b2v_inst7(
 	.x13(out_ALTERA_SYNTHESIZED[13]),
 	.x14(out_ALTERA_SYNTHESIZED[14]),
 	.x15(out_ALTERA_SYNTHESIZED[15]),
-	.out(zr));
+	.out(SYNTHESIZED_WIRE_0));
 
 
 
