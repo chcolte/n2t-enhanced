@@ -129,4 +129,9 @@ set_global_assignment -name VERILOG_FILE bitinversionw16_tb.v
 set_global_assignment -name BDF_FILE orc16w1.bdf
 set_global_assignment -name VERILOG_FILE alu_tb.v
 set_global_assignment -name TEXT_FILE alu_tb_vect.txt
+set_global_assignment -name BDF_FILE cpu.bdf
+set_global_assignment -name BDF_FILE register.bdf
+set_global_assignment -name VERILOG_FILE register_tb.v
+set_global_assignment -name BDF_FILE registerw4.bdf
+set_global_assignment -name VERILOG_FILE registerw4_tb.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,25 @@
+`timescale 1ns / 1ns
+
+module registerw4_tb;
+
+	reg [3:0] in;
+	reg load, clk;
+	wire [3:0] out;
+	
+	
+registerw4 insta (
+		.in(in),
+		.load(load),
+		.clk(clk),
+		.out(out)
+);
+	
+	initial begin
+		load = 0;
+		in = 0;
+		clk = 0;
+	end
+	always #4 load = ~load;
+	always #2 in = 1+in;
+	always #1 clk = ~clk;
+endmodule
